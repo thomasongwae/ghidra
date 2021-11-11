@@ -43,7 +43,7 @@ public class LoadDataScript extends GhidraScript {
 
 		File file = askFile( "Select DATA File", "OK" );
 		if ( file == null ) {
-			printerr( "No file selected, ending script." );
+			printerr( "Nothing was found there, exiting the script now !!!." );
 			return;
 		}
 
